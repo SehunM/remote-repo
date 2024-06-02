@@ -11,7 +11,7 @@ def print99():
             m+=1
         print()
         n+=1
-
+    print("+"*70)
     for i in range(1,10):
         for j in range(1,i+1):
             print("{}x{}={}".format(j,i,j*i),end="\t")
